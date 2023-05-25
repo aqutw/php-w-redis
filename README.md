@@ -2,10 +2,10 @@
 - MacOS
 - php 7.3
 
-# 測試 step1
+# 測試 step1 (預備data)
 `php _init_iphone.php`
 
-# 測試 step2
+# 測試 step2 (執行)
 觸發concurrency 10000 個 `php buy_iphone.php`
 
 # 測試結果第1次
@@ -50,3 +50,4 @@ User 39 got: 9
 User 76 got: 10
 ```
 
+# sleep 或 thread 思路不在 User 搶買情境適用
