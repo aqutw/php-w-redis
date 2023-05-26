@@ -50,4 +50,44 @@ User 39 got: 9
 User 76 got: 10
 ```
 
-# sleep 或 thread 思路不在 User 搶買情境適用
+# PS: sleep 或 thread 思路不在 User 搶買情境適用
+
+# 僅改變 concurrency 方式，讓結果更像現實:
+```
+User 3806 got: 2
+User 5460 got: 3
+User 1328 got: 4
+User 2556 got: 6
+User 8513 got: 1
+User 5359 got: 7
+User 4854 got: 5
+User 6404 got: 8
+User 1261 got: 9
+User 9231 got: 10
+```
+or
+```
+User 5782 got: 2
+User 1400 got: 3
+User 1624 got: 4
+User 6232 got: 5
+User 1202 got: 1
+User 5126 got: 6
+User 5203 got: 7
+User 6684 got: 8
+User 1318 got: 9
+User 6891 got: 10
+```
+or
+```
+User 4842 got: 1
+User 1617 got: 3
+User 370 got: 4
+User 629 got: 7
+User 3750 got: 5
+User 7622 got: 6
+User 9102 got: 8
+User 9512 got: 9
+User 6459 got: 2
+User 242 got: 10
+```
